@@ -1,0 +1,150 @@
+{
+  "Navbar": [
+    {
+      "title": "Cursos",
+      "path": "/cursos",
+      "border": "white",
+      "cursor": "pointer"
+    },
+    {
+      "title": "Acerca de",
+      "path": "/acercade",
+      "border": "white",
+      "cursor": "pointer"
+    },
+    { "title": "|", "path": "", "border": "white", "cursor": "default" },
+    {
+      "title": "Registrate",
+      "path": "/registro",
+      "border": "black",
+      "cursor": "pointer"
+    },
+    {
+      "title": "Inicia sesion",
+      "path": "",
+      "border": "black",
+      "cursor": "pointer",
+      "color": "ecce83",
+      "bg": "e7c15f"
+    }
+  ],
+  "SliderItems": [
+    {
+      "img": "https://www.muycomputerpro.com/wp-content/uploads/2020/05/java-25-anos-1000x600.jpg",
+      "title": "¡Aprende a programar!",
+      "desc": "Ofrecemos cursos que te ayudaran a entender algoritmos y mas ;)",
+      "bg": "f4a261"
+    },
+    {
+      "img": "https://icontinental.edu.pe/somoscontinental/wp-content/uploads/2019/09/instituto-continental-conferencia-rol-del-programador-1.jpg",
+      "title": "Aprenderás desde los conceptos básicos...",
+
+      "bg": "2a9d8f"
+    },
+    {
+      "id": 3,
+      "img": "https://i.insider.com/60144316a7c0c4001991dde6?width=1000&format=jpeg&auto=webp",
+      "title": "... hasta el desarrollo de un sistema funcional en Java",
+
+      "bg": "e7c15f"
+    }
+  ],
+    "Cursos": [
+    {
+      "id": "34fddb3f-d62d-4fe7-aead-ebb9d057d2e4",
+      "title": "Guía de programación nivel básico: fundamentos de programación. ",
+      "src": "https://i.imgur.com/6IOlF0E.jpg",
+      "costo": "$25",
+      "duracion": "1 mes",
+      "bg": "ef476f",
+      "temas": [
+        { "titulo": "Datos", "subtitulos": ["Tipos de dtos"] },
+        {
+          "titulo": "Operadores",
+          "subtitulos": [
+            "Operadores aritméticos",
+            "Operadores monarios y operadores binarios",
+            "Operadores relacionales",
+            "Operadores lógicos"
+          ]
+        },
+        { "titulo": "Diagramas de fujo", "subtitulos": [""] },
+        {
+          "titulo": "Estructuras de control",
+          "subtitulos": [
+            "Estructuras condicionales",
+            "Sentencia if",
+            "Sentencia switch",
+            "Estructuras iterativas",
+            "Sentencia for",
+            "Sentencia while",
+            "Sentencia do while"
+          ]
+        },
+        {
+          "titulo": "Variables",
+          "subtitulos": [
+            "Características de una variable en programación",
+            "Tipos de variables",
+            "Variables locales y globales"
+          ]
+        },
+        { "titulo": "Vectores", "subtitulos": ["Vectores multidimensionales"] },
+        {
+          "titulo": "Funciones",
+          "subtitulos": [
+            "Beneficios de utilizar funciones",
+            "Ventajas del uso de funciones"
+          ]
+        },
+        {
+          "titulo": "Clases y objetos",
+          "subtitulos": [
+            "¿Qué es una clase en POO?",
+            "¿Qué es un objeto en POO?"
+          ]
+        }
+      ],
+      "level": "Basico",
+      "desc": "En esta guía podrás encontrar los conceptos básicos para adentrarte en el mundo de la programación",
+      "req": ["Ninguno"]
+    },
+    {
+      "id": "34fddb3f-d62d-4fe7-aead-ebb9d057d2e5",
+      "title": "Guía de programación básica en Java: fundamentos",
+      "costo": "$25",
+      "duracion": "1 mes",
+      "src": "https://recursos.bps.com.es/files/1022/21.jpg",
+      "bg": "ffd166",
+      "temas": [
+        { "titulo": "Java", "subtitulos": ["Características del lenguaje ","Introducción a la programación orientada a objetos ","Sintaxis del lenguaje ","Objetos y clases "] }
+      ],
+      "level": "Medio",
+      "desc": "Java es un lenguaje relativamente sencillo, debido a que prácticamente toda la funcionalidad se encuentra en clases que forman parte del API de java. Constantemente están surgiendo nuevos apis, que proporcionan nuevas extensiones a las características del lenguaje. ",
+      "req": ["Guía de programación nivel básico: fundamentos de programación."]
+    },
+    {
+      "id": "34fddb3f-d62d-4fe7-aead-ebb9d057d2e6",
+      "title": "Sistema de inventario Sword ⚔️: Programado en Java",
+      "src": "https://www.programaenlinea.net/wp-content/uploads/2021/07/java.jpg",
+      "costo": "$25",
+      "duracion": "1 mes",
+      "bg": "06d6a0",
+      "level": "Avanzado",
+      "desc": "En ese curso se explica cómo funciona un sistema de inventario implementando lo que es registro de empleados, trabajadores, proveedores permitiéndonos y editar o eliminar un registro, además de esto se puede realizar ingreso de productos dónde podemos editarlo y eliminarlo; por último se evidencia como queda el registro listo para realizar una factura",
+      "req": [
+        "Guía de programación nivel básico: fundamentos de programación.",
+        "Guía de programación básica en Java: fundamentos"
+      ],
+      "temas": [
+        { "titulo": "Base de datos", "subtitulos": ["Coneciones"] },
+        {
+          "titulo": "Inventarios",
+          "subtitulos": ["Registro de producto", "Edicion de productos"]
+        },
+        { "titulo": "Facturacion", "subtitulos": [""] }
+      ],
+      "video": "https://www.facebook.com/plugins/video.php?height=299&href=https%3A%2F%2Fwww.facebook.com%2F106118901911004%2Fvideos%2F1699296096944813%2F&show_text=false&width=560&t=0"
+    }
+  ]
+}
